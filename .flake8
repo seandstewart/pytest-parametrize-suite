@@ -1,0 +1,18 @@
+[flake8]
+# line-length and extend-ignore are recommended by black
+#   https://black.readthedocs.io/en/stable/guides/using_black_with_other_tools.html#id2
+max-line-length = 88
+extend-include =
+    # Enable flake8-bugbear warnings.
+    #   https://github.com/PyCQA/flake8-bugbear
+    B9,
+extend-ignore =
+    # whitespace before ':' (black formats these this way)
+    E203,
+    # line too long (we're using bugbear's B950, less stringent).
+    E501,
+# Flake8's McCabe Complexity checker
+#   https://flake8.pycqa.org/en/latest/user/options.html#cmdoption-flake8-max-complexity
+max-complexity = 15
+extend-exclude =
+    .venv,
