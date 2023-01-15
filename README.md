@@ -1,5 +1,13 @@
 # Pytest (Parametrize) Suite
 
+[![image](https://img.shields.io/pypi/v/pytest-parametrize-suite.svg)](https://pypi.org/project/pytest-parametrize-suite/)
+[![image](https://img.shields.io/pypi/l/pytest-parametrize-suite.svg)](https://pypi.org/project/pytest-parametrize-suite/)
+[![image](https://img.shields.io/pypi/pyversions/pytest-parametrize-suite.svg)](https://pypi.org/project/pytest-parametrize-suite/)
+[![image](https://img.shields.io/github/languages/code-size/seandstewart/pytest-parametrize-suite.svg?style=flat)](https://github.com/seandstewart/pytest-parametrize-suite)
+[![Test & Lint](https://github.com/seandstewart/pytest-parametrize-suite/workflows/Test/badge.svg)](https://github.com/seandstewart/pytest-parametrize-suite/actions)
+[![Coverage](https://codecov.io/gh/seandstewart/pytest-parametrize-suite/branch/main/graph/badge.svg)](https://codecov.io/gh/seandstewart/pytest-parametrize-suite)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
+
 A tiny plugin for writing clean, easy-to-read, parametrized tests in pytest.
 
 ## Why?
