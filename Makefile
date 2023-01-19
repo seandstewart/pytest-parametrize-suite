@@ -40,10 +40,13 @@ lint:
 .PHONY: lint
 
 test:
-	poetry run pytest $(target) $(TEST_ARGS)
+	poetry run coverage run $(COV_ARGS) -m pytest $(target) $(TEST_ARGS)
+	poetry run coverage report $(COV_ARGS)
+	poetry run coverage xml $(COV_ARGS)
 .PHONY: test
 
-TEST_ARGS ?= --cov --cov-config=.coveragerc --junit-xml=junit.xml --cov-report=xml
+COV_ARGS ?= --rcfile=.coveragerc
+TEST_ARGS ?= --junit-xml=junit.xml
 
 coverage-report:
 	poetry run coverage xml --rcfile=.coveragerc
