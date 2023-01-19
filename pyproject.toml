@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pytest-parametrize-suite"
-version = "23.1.1"
+version = "23.1.2"
 description = "A simple pytest extension for creating a named test suite."
 authors = ["Sean Stewart <sean_stewart@me.com>"]
 readme = "README.md"
@@ -65,7 +65,7 @@ testpaths = ["tests"]
 minversion = "7.0"
 
 [bumpver]
-current_version = "v23.1.1"
+current_version = "v23.1.2"
 version_pattern = "vYY.MM.PATCH[-TAGNUM]"
 commit_message = "bump version to {new_version} [ci skip]"
 tag = true
