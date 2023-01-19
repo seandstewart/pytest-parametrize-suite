@@ -2,11 +2,11 @@
 branch = True
 data_file = coverage.db
 include =
-    src/pytest_parametrize_suite/*
+    src/*
 
 [paths]
 source =
-    src/pytest_parametrize_suite
+    src/
 
 [report]
 # Regexes for lines to exclude from consideration
